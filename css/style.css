@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|Raleway:300,400,600&display=swap');
+
+
+/* -- font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; ----*/
+*{
+	margin: 0;
+    color: #636363;
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+    display: block;
+
+}
+
+body{
+    
+
+}
+header{
+    padding: 20px 0;
+}
+.container{
+	width: 1000px;    
+	margin: auto;    
+	overflow: hidden;
+}
+.logo{
+	width: 20%;
+	float: left;
+	padding: 15px;
+	
+}
+.logo img{}
+.logo a{
+	padding: 15px;
+	display:inline;
+}
+
+nav{
+	width: 80%;
+	display: inline;
+	text-align: right;
+}
+nav ol{
+    padding: 0;
+    overflow: hidden;
+    text-align: right;
+}
+nav ol li{
+    list-style: none;
+    display: inline;
+    
+}
+nav ol li a{
+	color: #636363;
+	text-decoration: none;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 15px;
+	display: inline-block;
+
+
+}
+.article-section{}
+article{
+	padding: 50px;
+}
+h6{
+	font-size: 18px;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	padding: 20px 0;
+}
+h1{
+	font-size: 30px;
+	text-transform: capitalize;
+	padding: 20px 0;
+}
+p{
+	font-size: 16px;
+	text-align: justify;
+}
+.comment{
+	font-size: 18px;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	text-decoration: none;
+	padding: 20px 0;
+}
+
+.banner{
+	width: 100%;
+}
+
+.post-section{}
+.post{
+	width: 50%;
+	float: left;
+	padding: 0 30px;
+}
+.post img{
+	width: 100%;
+}
+
+/* footer menu*/
+
+footer{
+	background: #F0F0F0;
+	padding: 20px 0;
+	color: #020202;
+	
+}
+
+.footer-menu{
+	width: 50%;
+	float: left;
+	
+}
+
+.footer-menu ol{
+	
+}
+.footer-menu ol li{
+	
+	font-size: 14px;
+	padding: 10px;
+	display: inline-block;
+	font-weight: 600;
+
+	
+}
+.footer-menu ol li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	
+}
+.footer-menu ol li a:hover{}
+
+.social-menu{
+	width: 50%;
+	float: left;
+	
+
+}
+.social-menu ol{
+	padding: 0;
+    overflow: hidden;
+    text-align: right;
+}
+
+.social-menu ol li{
+
+	font-size: 14px;
+	padding: 10px;
+	display: inline-block;
+	text-align: right;
+	font-weight: 600;
+	text-transform: capitalize;
+
+}
+
+.social-menu ol li a{
+	text-decoration: none;
+
+}
+.social-menu ol li a:hover{}
+/* footer menu*/
